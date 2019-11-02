@@ -1,0 +1,10 @@
+{
+  "simulation": "org.baeldung.simulations.GetComputersSimulation",
+  "simulationId": "getcomputerssimulation",
+  "start": 1572692750163,
+  "description": "",
+  "scenarios": ["Get Computers Scenario"],
+  "assertions": [
+
+  ]
+}
