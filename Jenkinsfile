@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage("Maven build") {
+        stage("Build Maven") {
             steps {
                 sh 'mvn -B clean package'
             }
         }
-        stage("Gatling run") {
+        stage("Run Gatling") {
             steps {
                 sh 'mvn gatling:test'
             }
